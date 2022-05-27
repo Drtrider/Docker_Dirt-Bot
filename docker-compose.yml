@@ -1,0 +1,9 @@
+version: '3.4'
+
+services:
+  dockerdrtbot:
+    image: dockerdrtbot
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+  
