@@ -6,7 +6,10 @@ import os
 # = = =   END File Setup   = = =
 # ===============================
 
-discordKey = os.environ['env_discord_api_key']
+# Pull in API key for discord bot
+discord_api_key = os.environ['env_discord_api_key']
 
-print(discordKey)
+
+
+
 print("End of file...")
